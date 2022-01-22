@@ -1,0 +1,171 @@
+[33mcommit b9a74c9a2abbbb8964a9898c31132ec2638a1f6c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: h <ha.eshed@gmail.com>
+Date:   Sat Jan 22 11:48:17 2022 +0200
+
+    first commit
+
+[1mdiff --git a/Untitled.png b/Untitled.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1029667[m
+Binary files /dev/null and b/Untitled.png differ
+[1mdiff --git a/automatetheborintstuff.txt b/automatetheborintstuff.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c1fa707[m
+[1m--- /dev/null[m
+[1m+++ b/automatetheborintstuff.txt[m
+[36m@@ -0,0 +1,820 @@[m
+[32m+[m[32m<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"[m
+[32m+[m[32m    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">[m
+[32m+[m
+[32m+[m[32m<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <link rel="stylesheet" type="text/css" href="/automate2_website.css" />[m
+[32m+[m[32m  <meta charset="UTF-8" />[m
+[32m+[m[32m  <title>Automate the Boring Stuff with Python</title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <div class="top_header">[m
+[32m+[m[32m  <a href="https://automatetheboringstuff.com/">Home</a> | <a href="https://www.nostarch.com/automatestuff2">Buy on No Starch Press (comes with free ebook)</a> | <a href="https://www.amazon.com/gp/product/1593279922/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593279922&linkCode=as2&tag=playwithpyth-20&linkId=ee4ebe796322bf7f7598b85afaefb44a">Buy on Amazon</a> | <a href="https://twitter.com/AlSweigart">@AlSweigart</a> | <form action="https://www.paypal.com/cgi-bin/webscr" method="post">[m
+[32m+[m[32m            <input type="hidden" name="cmd" value="_s-xclick"> <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHPwYJKoZIhvcNAQcEoIIHMDCCBywCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCgxPYQJv3Obo0bDfmsrZC9NE7NgomnCSQYzv/qoo+SXiFnbdf4mEmccT4S+0nqLTLu/9k3rkoQtk3a/5bIjBrzgO372uHrT8gmkhvF08XSyS2EJ4wzFCkvRJJTcXskj9Wu3Fy5x5WQfiJQBuYvTOBpBdALM1pR4isBk3s4Js3MljELMAkGBSsOAwIaBQAwgbwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIeOPj/1/T33qAgZjwQw5CrNvgceyGdLNX3he0m8Z/vB/gZrTN9Fsy1gqd55nsqvF9mz3g4tESgYR1fZ1z4dbp+VWihXs8wDt8+Gf+VFRGbqKBb8Ehf8viIKdwq0oBlJ8PqIZg2BbfgFWtTNiduFUaxikJsI99cmUCGKyMS6YUb9H6RWxs7hdWRLSi5JCBI7JrDKRXh1rQ7Fyul/axzyXbJd3K6qCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTA5MTAwODIxMjUzNVowIwYJKoZIhvcNAQkEMRYEFI3IhaXiNtG/+5ZEYOHqSsAgYHXGMA0GCSqGSIb3DQEBAQUABIGAOfyAIJVkJnivbfGpRWAncl+2+4JMV+9OKY+4G+NxDNEYEXlZTgoxRMSgI68s4DwqBt8gnxD2hlUapPccwBSTWLgJRzs/weWaGjx5e/uoylM4cNzvO0HOXKGjqUCV1NySB2uDUgvo/WyS6rupK21TSeljRswRLF4PUMQhkYf1KiM=-----END PKCS7----- "> <input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" hidden="" style="display: none !important;">[m
+[32m+[m[32m          </form></div>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m  <div>[m
+[32m+[m
+[32m+[m[32m  <div><center><br />Support the author by purchasing the print/ebook bundle from <a href="https://www.nostarch.com/automatestuff2">No Starch Press</a> or separately on <a href="https://www.amazon.com/gp/product/1593279922/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593279922&linkCode=as2&tag=playwithpyth-20&linkId=ee4ebe796322bf7f7598b85afaefb44a">Amazon</a>.</center></div>[m
+[32m+[m
+[32m+[m[32m  <div><center><a href="https://www.amazon.com/gp/product/1593279922/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593279922&linkCode=as2&tag=playwithpyth-20&linkId=ee4ebe796322bf7f7598b85afaefb44a"><img src="/images/automate2_small_cover.png" alt="Automate the Boring Stuff book cover thumbnail" /></a></center></div>[m
+[32m+[m
+[32m+[m[32m  <div><center>Read the author's other Creative Commons licensed Python books.</center></div>[m
+[32m+[m
+[32m+[m[32m  <div><center>[m
+[32m+[m[32m    <a href="https://turtleappstore.com/book"><img src="/images/cover_codingwithminecraft_thumb.png" alt="Coding with Minecraft book cover thumbnail" style="width: 120px" /></a>[m
+[32m+[m
+[32m+[m[32m        <a href="https://inventwithpython.com/cracking/"><img src="/images/cover_crackingcodes_thumb.png" alt="Cracking Codes with Python book cover thumbnail" style="width: 120px" /></a>[m
+[32m+[m
+[32m+[m[32m        <a href="https://inventwithpython.com/invent4thed"><img src="/images/cover_invent4th_thumb.png" alt="Invent with Python book cover thumbnail" style="width: 120px" /></a>[m
+[32m+[m
+[32m+[m[32m        <a href="https://inventwithscratch.com/book/"><img src="/images/cover_scratchprogrammingplayground_thumb.jpg" alt="Scratch Programming Playground book cover thumbnail" style="width: 120px" /></a>[m
+[32m+[m
+[32m+[m[32m    <a href="https://inventwithpython.com/pygame/"><img src="/images/cover_makinggames_thumb.png" alt="Making Games with Python and Pygame book cover thumbnail" style="width: 120px" /></a>[m
+[32m+[m
+[32m+[m[32m    </center>[m
+[32m+[m[32m  </div>[m
+[32m+[m
+[32m+[m[32m  </div>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m  <div class="main">[m
+[32m+[m[41m	[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<div><center><a href="../chapter5"><img src="/images/prev.png" /></a><a href="/#toc"><img src="/images/toc.png" /></a><a href="../chapter7"><img src="/images/next.png" /></a></center></div>[m
+[32m+[m
+[32m+[m[32m<div class="calibre" id="calibre_link-1614">[m
+[32m+[m[32m<h2 class="h2b" id="calibre_link-207"><span {http://www.idpf.org/2007/ops}type="pagebreak" id="calibre_link-1750" class="calibre1"></span><strong class="calibre2"><span class="big">6</span><br class="calibre12" />MANIPULATING STRINGS</strong></h2>[m
+[32m+[m[32m<div class="image"><img src="../images/000123.jpg" alt="Image" class="calibre3" /></div>[m
+[32m+[m[32m<p class="noindent">Text is one of the most common forms of data your programs will handle. You already know how to concatenate two string values together with the <span class="literal">+</span> operator, but you can do much more than that. You can extract partial strings from string values, add or remove spacing, convert letters to lowercase or uppercase, and check that strings are formatted correctly. You can even write Python code to access the clipboard for copying and pasting text.</p>[m
+[32m+[m[32m<p class="indent"><span {http://www.idpf.org/2007/ops}type="pagebreak" id="calibre_link-742"></span>In this chapter, you’ll learn all this and more. Then you’ll work through two different programming projects: a simple clipboard that stores multiple strings of text and a program to automate the boring chore of formatting pieces of text.</p>[m
+[32m+[m[32m<h3 class="h1" id="calibre_link-208"><strong class="calibre2">Working with Strings</strong></h3>[m
+[32m+[m[32m<p class="noindent">Let’s look at some of the ways Python lets you write, print, and access strings in your code.</p>[m
+[32m+[m[32m<h4 class="h2" id="calibre_link-209"><strong class="calibre2"><em class="calibre9">String Literals</em></strong></h4>[m
+[32m+[m[32m<p class="noindent">Typing string values in Python code is fairly straightforward: they begin and end with a single quote. But then how can you use a quote inside a string? Typing <span class="codestrong">'That is Alice's cat.'</span> won’t work, because Python thinks the string ends after <span class="literal">Alice</span>, and the rest (<span class="literal">s cat.'</span>) is invalid Python code. Fortunately, there are multiple ways to type strings.</p>[m
+[32m+[m[32m<h5 class="h2" id="calibre_link-1751"><strong class="calibre2">Double Quotes</strong></h5>[m
+[32m+[m[32m<p class="noindent">Strings can begin and end with double quotes, just as they do with single quotes. One benefit of using double quotes is that the string can have a single quote character in it. Enter the following into the interactive shell:</p>[m
+[32m+[m[32m<p class="programs">&gt;&gt;&gt; <span class="codestrong1">spam = "That is Alice's cat."</span></p>[m
+[32m+[m[32m<p class="indent">Since the string begins with a double quote, Python knows that the single quote is part of the string and not marking the end of the string. However, if you need to use both single quotes and double quotes in the string, you’ll need to use escape characters.</p>[m
+[32m+[m[32m<h5 class="h2" id="calibre_link-1752"><strong class="calibre2">Escape Characters</strong></h5>[m
+[32m+[m[32m<p class="noindent">An <em class="calibre7">escape character</em> lets you use characters that are otherwise impossible to put into a string. An escape character consists of a backslash (<span class="literal">\</span>) followed by the character you want to add to the string. (Despite consisting of two characters, it is commonly referred to as a singular escape character.) For example, the escape character for a single quote is <span class="literal">\'</span>. You can use this inside a string that begins and ends with single quotes. To see how escape characters work, enter the following into the interactive shell:</p>[m
+[32m+[m[32m<p class="programs">&gt;&gt;&gt; <span class="codestrong1">spam = 'Say hi to Bob\'s mother.'</span></p>[m
+[32m+[m[32m<p class="indent">Python knows that since the single quote in <span class="literal">Bob\'s</span> has a backslash, it is not a single quote meant to end the string value. The escape characters <span class="literal">\'</span> and <span class="literal">\"</span> let you put single quotes and double quotes inside your strings, respectively.</p>[m
+[32m+[m[32m<p class="indent"><a href="#calibre_link-1615" class="calibre6">Table 6-1</a> lists the escape characters you can use.</p>[m
+[32m+[m[32m<p class="tabcap" id="calibre_link-1615"><span {http://www.idpf.org/2007/ops}type="pagebreak" id="calibre_link-743"></span><strong class="calibre4">Table 6-1:</strong> Escape Characters</p>[m
+[32m+[m[32m<table class="topbot-d">[m
+[32m+[m[32m<colgroup class="calibre13">[m
+[32m+[m[32m<col class="calibre18"></col>[m
+[32m+[m[32m<col class="calibre18"></col>[m
+[32m+[m[32m</colgroup>[m
+[32m+[m[32m<thead class="calibre15">[m
+[32m+[m[32m<tr class="calibre16">[m
+[32m+[m[32m<td class="table-h"><p class="tab_th"><strong class="calibre4">Escape character</strong></p></td>[m
+[32m+[m[32m<td class="table-h"><p class="tab_th"><strong class="calibre4">Prints as</strong></p></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m</thead>[m
+[32m+[m[32m<tbody class="calibre17">[m
+[32m+[m[32m<tr class="calibre16">[m
+[32m+[m[32m<td class="table-b"><p class="taba"><span class="literal">\'</span></p></td>[m
+[32m+[m[32m<td class="table-b"><p class="taba">Single quote</p></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m<tr class="calibre16">[m
+[32m+[m[32m<td class="table-v"><p class="taba"><span class="literal">\"</span></p></td>[m
+[32m+[m[32m<td class="table-v"><p class="taba">Double quote</p></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m<tr class="calibre16">[m
+[32m+[m[32m<td class="table-b"><p class="taba"><span class="literal">\t</span></p></td>[m
+[32m+[m[32m<td class="table-b"><p class="taba">Tab</p></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m<tr class="calibre16">[m
+[32m+[m[32m<td class="table-v"><p class="taba"><span class="literal">\n</span></p></td>[m
+[32m+[m[32m<td class="table-v"><p class="taba">Newline (line break)</p></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m<tr class="calibre16">[m
+[32m+[m[32m<td class="table-ba"><p class="taba"><span class="literal">\\</span></p></td>[m
+[32m+[m[32m<td class="table-ba"><p class="taba">Backslash</p></td>[m
+[32m+[m[32m</tr>[m
+[32m+[m[32m</tbody>[m
+[32m+[m[32m</table>[m
+[32m+[m[32m<p class="indent">Enter the following into the interactive shell:</p>[m
+[32m+[m[32m<p class="programs">&gt;&gt;&gt; <span class="codestrong1">print("Hello there!\nHow are you?\nI\'m doing fine.")</span><br class="calibre5" />[m
+[32m+[m[32mHello there!<br class="calibre5" />[m
+[32m+[m[32mHow are you?<br class="calibre5" />[m
+[32m+[m[32mI'm doing fine.</p>[m
+[32m+[m[32m<h5 class="h2" id="calibre_link-1753"><strong class="calibre2">Raw Strings</strong></h5>[m
+[32m+[m[32m<p class="noindent">You can place an <span class="literal">r</span> before the beginning quotation mark of a string to make it a raw string. A <em class="calibre7">raw string</em> completely ignores all escape characters and prints any backslash that appears in the string. For example, enter the following into the interactive shell:</p>[m
+[32m+[m[32m<p class="programs">&gt;&gt;&gt; <span class="codestrong1">print(r'That is Carol\'s cat.')</span><br class="calibre5" />[m
+[32m+[m[32mThat is Carol\'s cat.</p>[m
+[32m+[m[32m<p class="indent">Because this is a raw string, Python considers the backslash as part of the string and not as the start of an escape character. Raw strings are helpful if you are typing string values that contain many backslashes, such as the strings used for Windows file paths like <span class="literal">r'C:\Users\Al\Desktop'</span> or regular expressions described in the next chapter.</p>[m
+[32m+[m[32m<h5 class="h2" id="calibre_link-1754"><strong class="calibre2">Multiline Strings with Triple Quotes</strong></h5>[m
+[32m+[m[32m<p class="noindent">While you can use the <span class="literal">\n</span> escape character to put a newline into a string, it is often easier to use multiline strings. A multiline string in Python begins and ends with either three single quotes or three double quotes. Any quotes, tabs, or newlines in between the “triple quotes” are considered part of the string. Python’s indentation rules for blocks do not apply to lines inside a multiline string.</p>[m
+[32m+[m[32m<p class="indent">Open the file editor and write the following:</p>[m
+[32m+[m[32m<p class="programs">print('''Dear Alice,<br class="calibre5" /><br class="calibre5" />[m
+[32m+[m[32mEve's cat has been arrested for catnapping, cat burglary, and extortion.<br class="calibre5" /><br class="calibre5" />[m
+[32m+[m[32mSincerely,<br class="calibre5" />[m
+[32m+[m[32mBob''')</p>[m
+[32m+[m[32m<p class="indent"><span {http://www.idpf.org/2007/ops}type="pagebreak" id="calibre_link-763"></span>Save this program as <em class="calibre7">catnapping.py</em> and run it. The output will look like this:</p>[m
+[32m+[m[32m<p class="programs">Dear Alice,<br class="calibre5" /><br class="calibre5" />[m
+[32m+[m[32mEve's cat has been arrested for catnapping, cat burglary, and extortion.<br class="calibre5" /><br class="calibre5" />[m
+[32m+[m[32mSincerely,<br class="calibre5" />[m
+[32m+[m[32mBob</p>[m
+[32m+[m[32m<p class="indent">Notice that the single quote character in <span class="literal">Eve's</span> does not need to be escaped. Escaping single and double quotes is optional in multiline strings. The following <span class="literal">print()</span> call would print identical text but doesn’t use a multiline string:</p>[m
+[32m+[m[32m<p class="programs">print('Dear Alice,\n\nEve\'s cat has been arrested for catnapping, cat<br class="calibre5" />[m
+[32m+[m[32mburglary, and extortion.\n\nSincerely,\nBob')</p>[m
+[32m+[m[32m<h5 class="h2" id="calibre_link-1755"><strong class="calibre2">Multiline Comments</strong></h5>[m
+[32m+[m[32m<p class="noindent">While the hash character (<span class="literal">#</span>) marks the beginning of a comment for the rest of the line, a multiline string is often used for comments that span multiple lines. The following is perfectly valid Python code:</p>[m
+[32m+[m[32m<p class="programs">"""This is a test Python program.<br class="calibre5" />[m
+[32m+[m[32mWritten by Al Sweigart al@inventwithpython.com<br class="calibre5" /><br class="calibre5" />[m
+[32m+[m[32mThis program was designed for Python 3, not Python 2.<br class="calibre5" />[m
+[32m+[m[32m"""<br class="calibre5" /><br class="calibre5" />[m
+[32m+[m[32mdef spam():<br class="calibre5" />[m
+[32m+[m[32m&nbsp;&nbsp;&nbsp;&nbsp;"""This is a multiline comment to help<br class="calibre5" />[m
+[32m+[m[32m&nbsp;&nbsp;&nbsp;&nbsp;explain what the spam() function does."""<br class="calibre5" />[m
+[32m+[m[32m&nbsp;&nbsp;&nbsp;&nbsp;print('Hello!')</p>[m
+[32m+[m[32m<h4 class="h2" id="calibre_link-210"><strong class="calibre2"><em class="calibre9">Indexing and Slicing Strings</em></strong></h4>[m
+[32m+[m[32m<p class="noindent">Strings use indexes and slices the same way lists do. You can think of the string <span class="literal">'Hello, world!'</span> as a list and each character in the string as an item with a corresponding index.</p>[m
+[32m+[m[32m<p class="programsc">'&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;e&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;w&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;r&nbsp;&nbsp;&nbsp;l&nbsp;&nbsp;&nbsp;&nbsp;d&nbsp;&nbsp;&nbsp;&nbsp;!&nbsp;&nbsp;&nbsp;'<br class="calibre5" />[m
+[32m+[m[32m&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;12</p>[m
+[32m+[m[32m<p class="indent">The space and exclamation point are included in the character count, so <span class="literal">'Hello, world!'</span> is 13 characters long, from <span class="literal">H</span> at index 0 to <span class="literal">!</span> at index 12.</p>[m
+[32m+[m[32m<p class="indent"><span {http://www.idpf.org/2007/ops}type="pagebreak" id="calibre_link-1010"></span>Enter the following into the interactive shell:</p>[m
+[32m+[m[32m<p class="programs">&gt;&gt;&gt; <span class="codestrong1">spam = 'Hello, world!'</span><br class="calibre5" />[m
+[32m+[m[32m&gt;&gt;&gt; <span class="codestrong1">spam[0]</span><br class="calibre5" />[m
+[32m+[m[32m'H'<br class="calibre5" />[m
+[32m+[m[32m&gt;&gt;&gt; <span class="codestrong1">spam[4]</span><br class="calibre5" />[m
+[32m+[m[32m'o'<br class="calibre5" />[m
+[32m+[m[32m&gt;&gt;&gt; <span class="codestrong1">spam[-1]</span><br class="calibre5" />[m
+[32m+[m[32m'!'<br class="calibre5" />[m
+[32m+[m[32m&gt;&gt;&gt; <span class="codestrong1">spam[0:5]</span><br class="calibre5" />[m
+[32m+[m[32m'Hello'<br class="calibre5" />[m
+[32m+[m[32m&gt;&gt;&gt; <span class="codestrong1">spam[:5]</span><br class="calibre5" />[m
+[32m+[m[32m'Hello'<br class="calibre5" />[m
+[32m+[m[32m&gt;&gt;&gt; <span class="codestrong1">spam[7:]</

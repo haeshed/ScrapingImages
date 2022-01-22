@@ -1,0 +1,243 @@
+2020-04-15 00:39:13,424 - DEBUG - start of program
+
+
+
+2020-04-15 00:39:13,428 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:39:14,101 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:39:14,278 - DEBUG - created aas
+2020-04-15 00:39:14,278 - DEBUG - finished for a in aas
+2020-04-15 00:39:14,279 - DEBUG - finished for i in range image_info
+2020-04-15 00:40:21,867 - DEBUG - start of program
+
+
+
+2020-04-15 00:40:21,869 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:40:22,562 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:40:22,784 - DEBUG - created aas
+2020-04-15 00:40:22,785 - DEBUG - finished for a in aas
+2020-04-15 00:40:22,785 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:41:46,399 - DEBUG - start of program
+
+
+
+2020-04-15 00:41:46,402 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:41:47,249 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:41:47,267 - DEBUG - created aas
+2020-04-15 00:41:47,267 - DEBUG - finished for a in aas
+2020-04-15 00:41:47,268 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:42:11,977 - DEBUG - start of program
+
+
+
+2020-04-15 00:42:11,980 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:42:12,645 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:42:12,866 - DEBUG - created aas
+2020-04-15 00:42:12,867 - DEBUG - finished for a in aas
+2020-04-15 00:42:12,867 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:42:20,264 - DEBUG - start of program
+
+
+
+2020-04-15 00:42:20,266 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:42:20,939 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:42:21,038 - DEBUG - created aas
+2020-04-15 00:42:21,039 - DEBUG - finished for a in aas
+2020-04-15 00:42:21,039 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:42:41,411 - DEBUG - start of program
+
+
+
+2020-04-15 00:42:41,414 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:42:42,061 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:42:42,224 - DEBUG - created aas
+2020-04-15 00:42:42,225 - DEBUG - finished for a in aas
+2020-04-15 00:42:42,225 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:42:55,043 - DEBUG - start of program
+
+
+
+2020-04-15 00:42:55,046 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:42:55,754 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:42:55,820 - DEBUG - created aas
+2020-04-15 00:42:55,821 - DEBUG - finished for a in aas
+2020-04-15 00:42:55,821 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:43:15,376 - DEBUG - start of program
+
+
+
+2020-04-15 00:43:15,379 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:43:16,030 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:43:16,251 - DEBUG - created aas
+2020-04-15 00:43:16,251 - DEBUG - finished for a in aas
+2020-04-15 00:43:16,251 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:49:13,307 - DEBUG - start of program
+
+
+
+2020-04-15 00:49:13,310 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:49:14,255 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:49:14,402 - DEBUG - created aas
+2020-04-15 00:49:14,403 - DEBUG - finished for a in aas
+2020-04-15 00:49:14,403 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:51:38,638 - DEBUG - start of program
+
+
+
+2020-04-15 00:51:38,642 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:51:39,456 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:51:39,476 - DEBUG - created aas
+2020-04-15 00:51:39,477 - DEBUG - finished for a in aas
+2020-04-15 00:51:39,477 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:51:47,524 - DEBUG - start of program
+
+
+
+2020-04-15 00:51:47,528 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:51:48,238 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:51:48,369 - DEBUG - created aas
+2020-04-15 00:51:48,370 - DEBUG - finished for a in aas
+2020-04-15 00:51:48,370 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:52:05,718 - DEBUG - start of program
+
+
+
+2020-04-15 00:52:05,720 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:52:06,428 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:52:06,600 - DEBUG - created aas
+2020-04-15 00:52:06,601 - DEBUG - finished for a in aas
+2020-04-15 00:52:06,601 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:54:28,831 - DEBUG - start of program
+
+
+
+2020-04-15 00:54:28,833 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:54:29,517 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:54:29,766 - DEBUG - created aas
+2020-04-15 00:54:29,767 - DEBUG - finished for a in aas
+2020-04-15 00:54:29,767 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:56:18,615 - DEBUG - start of program
+
+
+
+2020-04-15 00:56:18,618 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:56:19,244 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:56:19,526 - DEBUG - created aas
+2020-04-15 00:56:19,526 - DEBUG - finished for a in aas
+2020-04-15 00:56:19,527 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:56:31,734 - DEBUG - start of program
+
+
+
+2020-04-15 00:56:31,738 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:56:32,397 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:56:32,510 - DEBUG - created aas
+2020-04-15 00:56:32,510 - DEBUG - finished for a in aas
+2020-04-15 00:56:32,510 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:57:02,213 - DEBUG - start of program
+
+
+
+2020-04-15 00:57:02,215 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:57:02,915 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:57:02,999 - DEBUG - created aas
+2020-04-15 00:57:03,000 - DEBUG - finished for a in aas
+2020-04-15 00:57:03,000 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 00:57:33,571 - DEBUG - start of program
+
+
+
+2020-04-15 00:57:33,573 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 00:57:34,184 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 00:57:34,387 - DEBUG - created aas
+2020-04-15 00:57:34,387 - DEBUG - finished for a in aas
+2020-04-15 00:57:34,387 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:00:31,507 - DEBUG - start of program
+
+
+
+2020-04-15 01:00:31,510 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:00:32,184 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:00:32,360 - DEBUG - created aas
+2020-04-15 01:00:32,361 - DEBUG - finished for a in aas
+2020-04-15 01:00:32,361 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:01:05,359 - DEBUG - start of program
+
+
+
+2020-04-15 01:01:05,361 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:01:05,958 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:01:06,119 - DEBUG - created aas
+2020-04-15 01:01:06,119 - DEBUG - finished for a in aas
+2020-04-15 01:01:06,119 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:01:10,981 - DEBUG - start of program
+
+
+
+2020-04-15 01:01:10,983 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:01:11,643 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:01:11,863 - DEBUG - created aas
+2020-04-15 01:01:11,864 - DEBUG - finished for a in aas
+2020-04-15 01:01:11,864 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:01:24,220 - DEBUG - start of program
+
+
+
+2020-04-15 01:01:24,223 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:01:24,920 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:01:25,075 - DEBUG - created aas
+2020-04-15 01:01:25,076 - DEBUG - finished for a in aas
+2020-04-15 01:01:25,076 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:01:56,279 - DEBUG - start of program
+
+
+
+2020-04-15 01:01:56,282 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:01:56,905 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:01:57,029 - DEBUG - created aas
+2020-04-15 01:01:57,030 - DEBUG - finished for a in aas
+2020-04-15 01:01:57,030 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:02:05,245 - DEBUG - start of program
+
+
+
+2020-04-15 01:02:05,247 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:02:05,916 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:02:06,154 - DEBUG - created aas
+2020-04-15 01:02:06,155 - DEBUG - finished for a in aas
+2020-04-15 01:02:06,155 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:02:20,892 - DEBUG - start of program
+
+
+
+2020-04-15 01:02:20,894 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:02:21,481 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:02:21,704 - DEBUG - created aas
+2020-04-15 01:02:21,704 - DEBUG - finished for a in aas
+2020-04-15 01:02:21,704 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:03:21,841 - DEBUG - start of program
+
+
+
+2020-04-15 01:03:21,843 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:03:22,520 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:03:22,620 - DEBUG - created aas
+2020-04-15 01:03:22,621 - DEBUG - finished for a in aas
+2020-04-15 01:03:22,621 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 01:04:23,267 - DEBUG - start of program
+
+
+
+2020-04-15 01:04:23,269 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 01:04:23,951 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 01:04:24,065 - DEBUG - created aas
+2020-04-15 01:04:24,065 - DEBUG - finished for a in aas
+2020-04-15 01:04:24,066 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
+2020-04-15 02:19:10,246 - DEBUG - start of program
+
+
+
+2020-04-15 02:19:10,249 - DEBUG - Starting new HTTPS connection (1): scrapethissite.com:443
+2020-04-15 02:19:10,961 - DEBUG - https://scrapethissite.com:443 "GET /lessons/sign-up/ HTTP/1.1" 200 None
+2020-04-15 02:19:11,254 - DEBUG - created aas
+2020-04-15 02:19:11,264 - DEBUG - finished for a in aas
+2020-04-15 02:19:11,264 - DEBUG - ['/static/images/scraper-icon.png', '/static/images/red-arrow.png', '/static/images/paul-blank.jpg', '/static/images/lev-selector.jpg', '/static/images/screenshots/http-request.png', '/static/images/screenshots/spreadsheet.png', '/static/images/screenshots/dashboard.png', '/static/images/satisification-guarantee-logo.jpg', '/static/images/nicholas-renotte.jpg', 'https://www.facebook.com/tr?id=764287443701341&ev=PageView&noscript=1', '//googleads.g.doubleclick.net/pagead/viewthroughconversion/950945448/?guid=ON&script=0']
